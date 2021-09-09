@@ -1,4 +1,4 @@
-# Project 3: Web APIs and Natural Language Processing (NLP)
+# Web APIs and Natural Language Processing (NLP)
 ### Problem Statement
 1. Use Pushshift API to scrape data from two subreddits.
 2. Build a model that classify subreddit post and predict if they are from one of the two subreddit. 
