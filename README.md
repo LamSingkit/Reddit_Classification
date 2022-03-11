@@ -11,7 +11,7 @@ I used PushShift API to pull 2500 most commented post in two years interval from
 
 Then, the data are cleaned. The cleaning process includes: Remove stop words; Change to lowercase; Remove punctuation; Remove bad symbol.
 
-The cleaned data are then vectorized and fit into three classification model: Bernoulli Naive Bayes model, Random Forest model an AdaBoost model. Using GridSearch, I was able to get the best score from each model. 
+The cleaned data are then vectorized and fit into three classification model: Bernoulli Naive Bayes model, Random Forest model, and AdaBoost model. Using GridSearch, I was able to get the best score from each model. 
 
 After evaluation, the best model is Bernoulli Naive Bayes Model, with a train score of 84.5%, test score of 84.4% and f1 score of 0.845.
 
